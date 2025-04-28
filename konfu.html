@@ -14,13 +14,21 @@
         <h2>Kontaktny formulár</h2>
         <form action="/action_page.php">
             <label for="fnam">Meno:</form></label><br>
-            <input type="text" id="fnam" name="fnam"><br>
+            <input type="text" id="fnam" name="fnam" size="20"><br>
             <label for="lnam">Priezvisko:</label><br>
-            <input type="text" id="lnam" name="lnam"><br><br>
+            <input type="text" id="lnam" name="lnam" size="20"><br><br>
+            <label for="datnar">Dátum narodenia:</label><br>
+            <input type="text" id="datnar" name="datnar" size="15"><br><br>
+            <h3>Pohlavie:</h3>
+            <input type="checkbox" id="pohlavie1" name="pohlavie1" value="Žena">
+            <label for="pohlavie1">Žena</label><br>
+            <input type="checkbox" id="pohlavie2" name="pohlavie2" value="Muž">
+            <label for="pohlavie2">Muž</label><br>
+        
             <input type="submit" value="Submit">
         </form>
     </center>
-    <h4><a href="hlstr.html" target="_blank">Domov</a></h4>
-    <h4><a href="rozvrh.html" target="_blank">Rozvrh hodín</a></h4>
+    <h4><a href="hlstr.html" target="_self">Domov</a></h4>
+    <h4><a href="rozvrh.html" target="_self">Rozvrh hodín</a></h4>
 </body>
 </html>
